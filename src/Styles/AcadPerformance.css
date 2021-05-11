@@ -1,0 +1,325 @@
+.AcadPerformance{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.AcadPerformance .OptionList select{
+	margin-bottom: 20px;
+}
+
+.scholarshipPlate{
+	margin-top: 20px;
+	border-radius: var(--standartBorderRadius1);
+	padding: 10px;
+	background: var(--search_Color);
+	text-align: center;
+}
+
+/* Progress Circles */
+
+.ProgressCircles{
+	display: flex;
+}
+
+.cardAndTitle{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cardAndTitle h4{
+	margin-top: 10px;
+}
+
+svg{
+	width: 160px;
+	height: 160px;
+}
+
+svg g circle{
+	width: 70px;
+	height: 70px;
+	fill:none;
+	stroke-width: 15;
+	stroke:var(--almostTransparentOpposite);
+	transform: translate(10px, 10px);
+}
+
+svg g:nth-child(2) circle{
+	transition: .3s;
+	stroke-dasharray: 440px;
+}
+
+.circleCard{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 160px;
+	margin: 0 20px;
+	position: relative;
+}
+
+.circleCard h3{
+	position: absolute;
+
+}
+
+.circlesLeftAndRightBtns{
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+
+}
+
+.circlesLeftAndRightBtns i{
+	cursor: pointer;
+}
+
+.circlesLeftAndRightBtns i:hover{
+	filter: brightness(.8);
+}
+
+.circleInfo{
+	position:absolute;
+	top:100px;
+	font-size:.8em;
+	font-weight:bold;
+}
+
+.circlePages{
+	position: absolute;
+	width: 40px;
+	height: 10px;
+	top: 120px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.circlePages span{
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: var(--almostTransparentOpposite);
+	transform: scale(.8);
+}
+
+/* Exams Table */
+
+.ExamsTable{
+	margin-top: 50px;
+	width: 100%;
+}
+
+.ExamStat{
+	width: 100%;
+	display: flex;
+	margin:10px 0;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+	border-bottom: 1px solid var(--almostTransparentOpposite);
+	transition: .2s transform;
+	cursor: pointer;
+}
+
+.ExamStat:active{
+	transform: scale(.98);
+	opacity: .7;
+}
+
+.ExamStat:last-child{
+	border-bottom: none;
+}
+
+.examSubjectName{
+	display: flex;
+	width: 240px;
+}
+
+.examSubjectName h4{
+	margin-left: 10px;
+}
+
+.examGrade, .examDate{
+	width: 80px;
+}
+
+.examTeacher{
+	width: 150px;
+}
+
+.outerLine{
+	width: 430px;
+	height: 9px;
+	background: var(--almostTransparentOpposite);
+	border-radius: var(--standartBorderRadius1);
+}
+
+.innerLine{
+	transition: .2s;
+	display: block;
+	height: 100%;
+	border-radius: var(--standartBorderRadius1);
+	background: linear-gradient(45deg, #E27992, #b682e5);
+}
+
+.ExamGradesScale {
+	display:flex;
+	margin-left: calc(22.5% + 10px); 
+	width:488px;
+	justify-content:space-around;
+}
+
+.ExamGradesScale h3{
+	position: relative;
+}
+
+.ExamGradesScale h3:first-child::after{
+	display: none;
+}
+
+.ExamGradesScale h3::after{
+	content: "";
+	display: block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -5px;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background: var(--blueColor);
+}
+
+/* Easy exams table */
+
+.EasyExamsTable{
+	margin-top: 40px;
+	width: 100%;
+}
+
+.ExamStat i{
+	font-size: 20px;
+}
+
+.StatisticWindow{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .5);
+	z-index: 10;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	visibility: hidden;
+	transform: scale(.95);
+	transition: .2s visibility, .2s opacity, .2s transform;
+}
+
+.StatisticWindow_content{
+	width: 90%;
+	height: 90%;
+	background: var(--settings_Color);
+	border-radius: var(--standartBorderRadius2);
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.StatisticWindow_content p{
+	margin: 5px 0;
+}
+
+.StatisticWindow_content .titleAndClose{
+	margin-bottom: 20px;
+	align-items: start;
+}
+
+.StatisticWindow_content .titleAndClose h1{
+	text-align: left;
+}
+
+@media (max-width:1400px) {
+	.examTeacher{
+		display: none;
+	}
+
+	.ExamGradesScale{
+		margin-left: 28%;
+	}
+
+}
+
+@media (max-width:1170px) {
+	.examGrade{
+		display: none;
+	}
+
+	.outerLine{
+		width: 320px;
+	}
+
+	.ExamGradesScale{
+		width: 400px;
+		margin-left: 34%;
+	}
+}
+
+@media (min-width:1001px){
+	.ExamStat:hover{
+		background: var(--almostTransparent);
+	}
+}
+
+@media (max-width:1000px){
+	.ProgressCircles{
+		max-width: 100%;
+		margin-top: 10px;
+	}
+
+	.examDate, .examTeacher, .outerLine, .ExamGradesScale{
+		display: none;
+	}
+
+	.examGrade{
+		width: auto;
+		display: block;
+	}
+
+	.ExamsTable, .EasyExamsTable{
+		margin-top: 20px;
+		padding: 10px 20px;
+		box-sizing: border-box;
+		background: var(--closeToContent_Color);
+		box-shadow: var(--mildShadow);
+		border-radius: var(--standartBorderRadius2);
+	}
+}
+
+@media (max-width:730px){
+	.StatisticWindow{
+		font-size: .9em;
+	}
+}
+
+@media (max-width:370px){
+	.ProgressCircles{
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.ProgressCircles .cardAndTitle:last-child{
+		margin-top: 30px;
+	}
+
+	.ExamsTable, .EasyExamsTable{
+		font-size: .9em;
+	}
+}

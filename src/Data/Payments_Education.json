@@ -1,0 +1,40 @@
+{
+	"magistracy":
+	[
+		{
+			"date": "January 22, 2021",
+			"value": 100000
+		},
+		{
+			"date": "June 18, 2020",
+			"value": 100000
+		},
+		{
+			"date": "August 18, 2018",
+			"value": 100000
+		}		
+	],
+	"bachelor":
+	[
+		{
+			"date":"6 October, 2020",
+			"value": 3900
+		},
+		{
+			"date": "5 March, 2020",
+			"value": 1300
+		},
+		{
+			"date": "5 March, 2020",
+			"value": 120000
+		},
+		{
+			"date":"August 22, 2019",
+			"value": 43900
+		},
+		{
+			"date": "August 22, 2019",
+			"value": 3900
+		}
+	]
+}

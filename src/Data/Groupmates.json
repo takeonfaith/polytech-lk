@@ -1,0 +1,273 @@
+[
+	{
+		"id":0,
+		"photo":"https://randomuser.me/api/portraits/men/42.jpg",
+		"name":"Чижов Даниил Тимурович",
+		"group":"191-722"
+	},
+	{
+		"id":1,
+		"photo":"",
+		"name":"Бирюков Артём Иванович",
+		"group":"191-722"
+	},
+	{
+		"id":2,
+		"photo":"",
+		"name":"Евсеев Тимофей Александрович",
+		"group":"191-722"
+	},
+	{
+		"id":3,
+		"photo":"",
+		"name":"Назарова Мария Ильинична",
+		"group":"191-722"
+	},
+	{
+		"id":4,
+		"photo":"",
+		"name":"Андреев Илья Максимович",
+		"group":"191-722"
+	},
+	{
+		"id":5,
+		"photo":"",
+		"name":"Пастухова Мария Никитична",
+		"group":"191-722"
+	},
+	{
+		"id":6,
+		"photo":"",
+		"name":"Власов Илья Сергеевич",
+		"group":"191-722"
+	},
+	{
+		"id":7,
+		"photo":"https://m.media-amazon.com/images/M/MV5BOThhZTkxMWMtY2UyYS00MTdlLTk1ZmMtZWQ0OWFkZjE2YTA1XkEyXkFqcGdeQXVyMjU0ODI4MzY@._V1_UX172_CR0,0,172,256_AL_.jpg",
+		"name":"Мартынова Ясмина Робертовна",
+		"group":"191-722"
+	},
+	{
+		"id":8,
+		"photo":"",
+		"name":"Рябов Богдан Алексеевич",
+		"group":"191-722"
+	},
+	{
+		"id":9,
+		"photo":"https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?crop=faces&fit=crop&h=200&w=200&auto=compress&cs=tinysrgb",
+		"name":"Родионов Егор Леонович",
+		"group":"191-722"
+	},
+	{
+		"id":10,
+		"photo":"",
+		"name":"Селиванов Максим Никитич",
+		"group":"191-722"
+	},
+	{
+		"id":11,
+		"photo":"",
+		"name":"Васильева Елизавета Матвеевна",
+		"group":"191-722"
+	},
+	{
+		"id":12,
+		"photo":"",
+		"name":"Николаев Семён Артёмович",
+		"group":"191-722"
+	},
+	{
+		"id":13,
+		"photo":"",
+		"name":"Петров Мирон Денисович",
+		"group":"191-722"
+	},
+	{
+		"id":14,
+		"photo":"https://images-na.ssl-images-amazon.com/images/M/MV5BMjUzZTJmZDItODRjYS00ZGRhLTg2NWQtOGE0YjJhNWVlMjNjXkEyXkFqcGdeQXVyMTg4NDI0NDM@._V1_UY256_CR42,0,172,256_AL_.jpg",
+		"name":"Костина Арина Марковна",
+		"group":"191-722"
+	},
+	{
+		"id":15,
+		"photo":"https://randomuser.me/api/portraits/men/32.jpg",
+		"name":"Лобанов Матвей Дмитриевич",
+		"group":"191-722"
+	},
+	{
+		"id":16,
+		"photo":"",
+		"name":"Хромов Илья Николаевич",
+		"group":"191-722"
+	},
+	{
+		"id":17,
+		"photo":"",
+		"name":"Степанов Али Львович",
+		"group":"191-722"
+	},
+	{
+		"id":18,
+		"photo":"",
+		"name":"Куликов Платон Кириллович",
+		"captain":true,
+		"group":"191-722"
+	},
+	{
+		"id":19,
+		"photo":"",
+		"name":"Свиридова Алиса Ильинична",
+		"group":"191-722"
+	},
+	{
+		"id":20,
+		"photo":"",
+		"name":"Дмитриев Глеб Иванович",
+		"group":"191-722"
+	},
+	{
+		"id":21,
+		"photo":"",
+		"name":"Лазарев Всеволод Тимурович",
+		"group":"191-722"
+	},
+	{
+		"id":22,
+		"photo":"",
+		"name":"Соловьев Иван Георгиевич",
+		"group":"191-723"
+	},
+	{
+		"id":23,
+		"photo":"",
+		"name":"Попов Михаил Маркович",
+		"group":"191-723"
+	},
+	{
+		"id":25,
+		"photo":"",
+		"name":"Васильев Максим Кириллович",
+		"group":"191-724"
+	},
+	{
+		"id":26,
+		"photo":"",
+		"name":"Старостина Полина Артёмовна",
+		"group":"191-725"
+	},
+	{
+		"id":27,
+		"photo":"",
+		"name":"Федоров Захар Львович",
+		"group":"191-723"
+	},
+	{
+		"id":28,
+		"photo":"",
+		"name":"Горбунова Евгения Ильинична",
+		"group":"191-725"
+	},
+	{
+		"id":29,
+		"photo":"",
+		"name":"Корнеев Артём Павлович",
+		"group":"191-724"
+	},
+	{
+		"id":30,
+		"photo":"",
+		"name":"Малинин Филипп Ильич",
+		"group":"191-723"
+	},
+	{
+		"id":31,
+		"photo":"",
+		"name":"Максимов Алексей Артёмович",
+		"group":"191-723"
+	},
+	{
+		"id":32,
+		"photo":"",
+		"name":"Суслова Анна Тимофеевна",
+		"group":"191-721"
+	},
+	{
+		"id":33,
+		"photo":"",
+		"name":"Савельев Александр Иванович",
+		"group":"191-724"
+	},
+	{
+		"id":34,
+		"photo":"",
+		"name":"Петрова Вероника Георгиевна",
+		"group":"191-724"
+	},
+	{
+		"id":35,
+		"photo":"",
+		"name":"Миронов Арсений Владимирович",
+		"group":"191-726"
+	},
+	{
+		"id":36,
+		"photo":"",
+		"name":"Муратов Егор Маркович",
+		"group":"191-721"
+	},
+	{
+		"id":37,
+		"photo":"",
+		"name":"Калмыков Марк Никитич",
+		"group":"191-723"
+	},
+	{
+		"id":38,
+		"photo":"",
+		"name":"Егорова Елизавета Ильинична",
+		"group":"191-725"
+	},
+	{
+		"id":39,
+		"photo":"",
+		"name":"Шапошникова София Никитична",
+		"group":"191-725"
+	},
+	{
+		"id":40,
+		"photo":"",
+		"name":"Гуляев Кирилл Арсентьевич",
+		"group":"191-723"
+	},
+	{
+		"id":41,
+		"photo":"",
+		"name":"Харитонова Анастасия Богдановна",
+		"group":"191-723"
+	},
+	{
+		"id":42,
+		"photo":"",
+		"name":"Семенов Дмитрий Павлович",
+		"group":"191-723"
+	},
+	{
+		"id":43,
+		"photo":"",
+		"name":"Миронов Андрей Егорович",
+		"group":"191-723"
+	},
+	{
+		"id":44,
+		"photo":"https://images.generated.photos/UlFb30-lN4zF2RuOAUkNUdRh0yPEpEyZwDTj-Dh-aQI/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA2MTI4NTcuanBn.jpg",
+		"name":"Романов Демьян Захарович",
+		"group":"191-725"
+	},
+	{
+		"id":45,
+		"photo":"https://images.generated.photos/MOiwMDb8WSGNS_P8ksZdSkgzzqNPZUVN2FM83OQYkPk/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzAyNDM3MjEuanBn.jpg",
+		"name":"Серов Владислав Тимурович",
+		"group":"191-721"
+	}
+]

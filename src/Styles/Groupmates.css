@@ -1,0 +1,307 @@
+.GroupmatesWrapper{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	animation: fadeInBottom .3s forwards;
+}
+
+.GroupmatesWrapper.list{
+	flex-direction: column;
+}
+
+.groupTopSection{
+	display: flex;
+	align-items: center;
+}
+
+.studentNum{
+	background: var(--settings_Color);
+	padding: 5px;
+	width: 30px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px 4px var(--standartBorderRadius1) var(--standartBorderRadius1);
+	position: absolute;
+	top: -2px;
+	left: 5px;
+	font-weight: bold;
+	box-shadow: var(--littleLessMildShadow);
+	z-index: 4;
+}
+
+.groupSize.btn{
+	cursor: pointer;
+	transition: .1s;
+}
+
+.groupSize.btn:hover{
+	transform: scale(0.95);
+	filter: brightness(1.2);
+}
+
+.isCaptain{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	transform: rotate(25deg);
+}
+
+.groupSize{
+	background: var(--settings_Color);
+	height: 100%;
+	display: block;
+	padding: 8px 15px;
+	margin-left: 5px;
+	border-radius: var(--standartBorderRadius1);
+}
+
+.PeopleList .CustomSelect{
+	margin-left: 5px;
+}
+
+.PeopleList .SearchBar{
+	margin-top: 0;
+	width: 250px;
+	z-index: 0;
+}
+
+.PeopleList .SearchBar input{
+	width: 250px;
+}
+
+.GroupmateItem{
+	border-radius: var(--standartBorderRadius1);
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+	background: var(--search_Color);
+	margin: 10px 15px 5px 0;
+	cursor: pointer;
+	z-index: 4;
+	user-select: none;
+	transform: scale(1);
+	transition: 0.1s transform;
+}
+
+.GroupmateItem.list{
+	width: 100%;
+	max-width: 100%;
+	flex-direction: row;
+	justify-content: start;
+}
+
+.GroupmateItem.list .imgPlace{
+	width: 70px;
+	height: 70px;
+}
+
+.GroupmateItem.list .studentNum{
+	left: auto;
+	right: 5px;
+}
+
+.imgPlace{
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	background: var(--leftSideBar_Color);
+	box-shadow: var(--littleLessMildShadow);
+	border-radius: var(--standartBorderRadius1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .1s transform;
+}
+
+.imgPlace img{
+	width: 100%;
+	transition: .2s;
+}
+
+.imgPlace i{
+	font-size:35px;
+}
+
+.GroupmateItem h5{
+	margin: 5px 15px 10px;
+
+}
+
+.GroupmateItem.grid h5{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.GroupmateItem.list h5{
+	margin: 0;
+	margin-left: 15px;
+}
+
+.GroupmateItem .chatWithFriend{
+	transition: .2s;
+	transform: translateY(20px);
+	opacity: 0;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+@media (min-width:1001px){
+	.GroupmateItem.list:hover{
+		transform: scale(1);
+		filter: brightness(1.05);
+		border-radius: 25px;
+	}
+
+	.GroupmateItem:hover{
+		transform: scale(1.01);
+		box-shadow: 0 0 30px rgba(41, 41, 41, 0.322);
+		z-index: 10;
+	}
+
+	.GroupmateItem.list:hover .imgPlace{
+		transform: scale(.9);
+		box-shadow: var(--littleLessMildShadow);
+		border-radius: 25px;
+		transition: .2s;
+	}
+
+	.GroupmateItem:hover .imgPlace{
+		transform: scale(1.1) translateY(-10px);
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.322);
+		z-index: 3;
+	}
+
+	.GroupmateItem:hover .studentNum{
+		z-index: 10;
+		transform: translate(-10px, -20px);
+	}
+}
+
+
+
+.far.fa-user{
+	transition: .2s transform, .2s opacity;
+}
+
+.GroupmateItem:hover .far.fa-user{
+	opacity: 0;
+	transform: translateY(-10px);
+}
+
+.GroupmateItem:hover img{
+	filter: brightness(.2);
+}
+
+.GroupmateItem:hover .chatWithFriend{
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+
+
+
+
+.GroupmateItem.list:hover .studentNum{
+	transform: translate(0px, -2px);
+}
+
+.GroupmateItem.list a{
+	width: 70px;
+}
+
+.GroupmateItem a{
+	width: 100%;
+}
+
+.showAll:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.groupTopSection_btnsAndSelect{
+	display: flex;
+	width: 100%;
+}
+
+@media (max-width:1000px){
+	.Groupmates{
+		align-items: center;
+	}
+	.GroupmatesWrapper{
+		justify-content: center;
+	}
+
+	.groupTopSection{
+		padding-left: 4px;
+		margin-bottom: 10px;
+		justify-content: center;
+		box-sizing: content-box;
+	}
+
+	.GroupmateItem{
+		margin: 5px;
+		width: 45%;
+		max-width: 160px;
+	}
+
+	.imgPlace{
+		height: 160px;
+	}
+
+	.PeopleList .SearchBar, .PeopleList .SearchBar input{
+		width: 100%;
+		max-width: 600px;
+	}
+	.GroupmateItem h5{
+		font-size: .7em;
+	}
+
+	.GroupmateItem.list h5{
+		margin-left: 5px;
+	}
+
+	.GroupmateItem.list .imgPlace{
+		width: 60px;
+		height: 60px;
+	}
+
+	.GroupmateItem.list .imgPlace i{
+		font-size: 1.3em;
+	}
+}
+
+@media (max-width:600px){
+	.PeopleList .groupTopSection{
+		flex-wrap: wrap;
+	}	
+
+	.PeopleList .groupTopSection .CustomSelect{
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.PeopleList .groupTopSection .SearchBar{
+		margin-bottom: 5px;
+	}
+
+	.groupTopSection_btnsAndSelect .groupSize.btn:first-child{
+		margin-left: 0;
+	}
+}
+
+@media (max-width:350px){
+	.GroupmateItem h5{
+		font-size: .6em;
+	}
+}

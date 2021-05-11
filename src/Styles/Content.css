@@ -1,0 +1,34 @@
+.Content{
+	width: 100%;
+	height: 100vh;
+	background: var(--content_Color);
+	/* transition: .2s; */
+	box-sizing: border-box;
+	padding: 50px;
+	color: var(--text_Color);
+	overflow-y: auto;
+
+}
+
+
+
+@media all and (max-width: 1000px){
+	.Content{
+		padding: 20px 10px;
+
+	}
+
+	.Content h1{
+		font-size: var(--titleSizeMobileh1);
+		text-align: center;
+	}
+
+	.contentTitle{
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	.contentTitle{
+		margin-left: 0;
+	}
+}

@@ -1,0 +1,131 @@
+[
+	{
+		"time": "12:20 - 13:50",
+		"place": "Webex",
+		"subject": "Базы данных (Зачет)",
+		"teacher": "Баранов Артём Мартинович",
+		"dateInterval": "January 18, 2021",
+		"link":"https://polytech.webex.com/meet/w002"
+	},	
+	{
+		"time": "14:30 - 16:00",
+		"place": "Webex",
+		"subject": "Базы данных (Зачет)",
+		"teacher": "Баранов Артём Мартинович",
+		"dateInterval": "January 18, 2021",
+		"link":"https://polytech.webex.com/meet/w002"
+	},	
+	{
+		"time": "10:40 - 12:10",
+		"place": "Webex",
+		"subject": "Математика (Зачет)",
+		"teacher": "Козлов Марк Михайлович",
+		"dateInterval": "January 20, 2021",
+		"link":"https://polytech.webex.com/meet/w246"
+	},	
+	{
+		"time": "12:20 - 13:50",
+		"place": "Webex",
+		"subject": "Математика (Зачет)",
+		"teacher": "Козлов Марк Михайлович",
+		"dateInterval": "January 20, 2021",
+		"link":"https://polytech.webex.com/meet/w246"
+	},	
+	{
+		"time": "14:30 - 16:00",
+		"place": "LMS",
+		"subject": "Нечеткое моделирование (Консультация)",
+		"teacher": "Зайцев Марк Даниилович",
+		"dateInterval": "January 20, 2021",
+		"link":"https://lms.mospolytech.ru"
+	},	
+	{
+		"time": "10:40 - 12:10",
+		"place": "Webex",
+		"subject": "Нечеткое моделирование (Экзамен)",
+		"teacher": "Зайцев Марк Даниилович",
+		"dateInterval": "January 26, 2021",
+		"link":"https://polytech.webex.com/meet/w078"
+	},
+	{
+		"time": "12:20 - 13:50",
+		"place": "Webex",
+		"subject": "Нечеткое моделирование (Экзамен)",
+		"teacher": "Зайцев Марк Даниилович",
+		"dateInterval": "January 26, 2021",
+		"link":"https://polytech.webex.com/meet/w078"
+	}, 
+	{
+		"time": "14:30 - 16:00",
+		"place": "LMS",
+		"subject": "Распознавание образов в информационных и автоматизированных системах (Консультация)",
+		"teacher": "Дроздов Михаил Артёмович",
+		"dateInterval": "January 26, 2021",
+		"link":"https://lms.mospolytech.ru"
+	},
+	{
+		"time": "9:00 - 10:30",
+		"place": "LMS",
+		"subject": "Распознавание образов в информационных и автоматизированных системах (Экзамен)",
+		"teacher": "Дроздов Михаил Артёмович",
+		"dateInterval": "January 29, 2021",
+		"link":"https://lms.mospolytech.ru"
+	},
+	{
+		"time": "10:40 - 12:10",
+		"place": "LMS",
+		"subject": "Распознавание образов в информационных и автоматизированных системах (Экзамен)",
+		"teacher": "Дроздов Михаил Артёмович",
+		"dateInterval": "January 29, 2021",
+		"link":"https://lms.mospolytech.ru"
+	},
+	{
+		"time": "12:20 - 13:50",
+		"place": "LMS",
+		"subject": "Дискретная математика (Консультация)",
+		"teacher": "Поликарпова Арина Львовна",
+		"dateInterval": "January 29, 2021",
+		"link":"https://lms.mospolytech.ru"
+	}, 
+	{
+		"time": "14:30 - 16:00",
+		"place": "LMS",
+		"subject": "Основы современных алгоритмов (Консультация)",
+		"teacher": "Кудрявцев Алексей Егорович",
+		"dateInterval": "January 30, 2021",
+		"link":"https://lms.mospolytech.ru"
+	}, 
+	{
+		"time": "10:40 - 12:10",
+		"place": "LMS",
+		"subject": "Основы современных алгоритмов (Экзамен)",
+		"teacher": "Кудрявцев Алексей Егорович",
+		"dateInterval": "February 2, 2021",
+		"link":"https://lms.mospolytech.ru"
+	},
+	{
+		"time": "12:20 - 13:50",
+		"place": "LMS",
+		"subject": "Основы современных алгоритмов (Экзамен)",
+		"teacher": "Кудрявцев Алексей Егорович",
+		"dateInterval": "February 2, 2021",
+		"link":"https://lms.mospolytech.ru"
+	},
+	{
+		"time": "9:00 - 10:30",
+		"place": "LMS",
+		"subject": "Дискретная математика (Экзамен)",
+		"teacher": "Семенов Лев Михайлович, Поликарпова Арина Львовна",
+		"dateInterval": "February 5, 2021",
+		"link":"https://lms.mospolytech.ru"
+	},
+	{
+		"time": "10:40 - 12:10",
+		"place": "LMS",
+		"subject": "Дискретная математика (Экзамен)",
+		"teacher": "Семенов Лев Михайлович, Поликарпова Арина Львовна",
+		"dateInterval": "February 5, 2021",
+		"link":"https://lms.mospolytech.ru"
+	}
+	
+]

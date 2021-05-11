@@ -1,0 +1,13 @@
+{
+	"dormitory":
+	{
+		"id":0,
+		"customer":"Иванов И.И.",
+		"student":"Родионов Е. Л.",
+		"number": "№0031451",
+		"startDate": "August 22, 2019",
+		"sum":29433,
+		"endDate": "August 31, 2023",
+		"monthly": 650
+	}
+}

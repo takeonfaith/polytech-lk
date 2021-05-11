@@ -1,0 +1,442 @@
+
+.ProjectActivities{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.ProjectActivities .CustomSelect{
+	margin-bottom: 20px;
+}
+
+.CurrentProjectAndAboutCurator{
+	display: flex;
+}
+
+.ProjectScoresAndList{
+	display: flex;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.CurrentProject, .ProjectScores, .AboutCurator, .ParticipantsList{
+	background: var(--search_Color);
+	border-radius: var(--standartBorderRadius3);
+}
+
+.projectDescr::-webkit-scrollbar, .curatorDescription::-webkit-scrollbar, .ParticipantsList_List::-webkit-scrollbar{
+	width: 4px;
+}
+
+.projectDescr::-webkit-scrollbar-thumb, .curatorDescription::-webkit-scrollbar-thumb, .ParticipantsList_List::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+}
+
+/* Current Project Plate */
+.CurrentProject{
+	height: 330px;
+	width: 100%;
+	margin-right: 20px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.CurrentProject__top{
+	height: 55%;
+	background: var(--search_Color);
+	box-shadow: var(--littleLessMildShadow);
+	display: flex;	
+	justify-content: center;	
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	transition: .2s;
+	cursor: pointer;
+}
+
+.CurrentProject__top:hover{
+	filter:brightness(1.1);
+}
+
+.currentProjectName{
+	color:var(--blueColor);
+	max-width: 70%;
+	text-align: center;
+}
+
+.studentsStarts{
+	position: absolute;
+	right: -3px;
+	top: 20px;
+	padding: 10px 20px;
+	background: var(--reallyBlueColor);
+	border-radius: var(--standartBorderRadius1) 5px 5px var(--standartBorderRadius1);
+	color:#fff;
+	transition: .2s opacity, .2s transform;
+}
+
+.openProjectDescrBtn{
+	position: absolute;
+	border:none;
+	outline: none;
+	left: 20px;
+	top: 28px;
+	width: 28px;
+	height: 28px;
+	border-radius: 100%;
+	background: var(--settings_Color);
+	color:grey;
+	cursor: pointer;
+	padding: 0;
+}
+
+.openProjectDescrBtn:hover{
+	filter: brightness(.8);
+}
+
+.openProjectDescrBtn i{
+	font-size: 14px;
+}
+
+.CurrentProject__bottom{
+	height: 45%;
+	display: flex;	
+	justify-content: center;	
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	transition: .2s;
+	text-align: center;
+}
+
+.CurrentProject__top{
+	border-radius: var(--standartBorderRadius3);
+}
+
+.projectDescr{
+	max-width: 80%;
+	padding-top: 10px;
+	box-sizing: border-box;
+	height: 100%;
+	max-height: 70%;
+	margin-bottom: 30px;
+	overflow-y: auto;
+	transition: .5s ;
+	padding-bottom: 20px;
+}
+
+::-webkit-scrollbar{
+	width: 4px;
+}
+
+.projectDescr::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+}
+
+/* About Curator Plate */
+.AboutCurator::-webkit-scrollbar{
+	width: 12px;
+}
+
+.AboutCurator{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	height: 330px;
+	box-sizing: border-box;
+	max-width: 750px;
+}
+
+.AboutCurator .curatorPhotoAndName{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.AboutCurator .curatorImgBorder{
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	border-radius: 100%;
+	background: var(--orangeGradient);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.AboutCurator img{
+	height: 100%;
+}
+
+.AboutCuratorLeftSide{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.AboutCuratorRightSide{
+	max-width: 50%;
+	height: 100%;
+	padding: 20px;
+	border-radius: 24px;
+	background: var(--fullInfoMenu_Color);
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.AboutCuratorRightSide .wideBtn{
+	border-radius: var(--standartBorderRadius2);
+}
+
+.curatorDescription{
+	height: 100%;
+	max-height: calc(100% - 45px);
+	overflow-y: auto;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+
+}
+
+.curatorDescription h3{
+	margin-bottom: 10px;
+}
+
+/* Project Scores */
+
+
+.ProjectScores{
+	min-width: 750px;
+	height: 330px;
+	display: flex;
+	border-radius: var(--standartBorderRadius3);
+	overflow: hidden;
+}
+
+.ProjectScores_leftSide{
+	width: 70%;
+	background: var(--settings_Color);
+	border-radius: var(--standartBorderRadius3);
+	box-shadow: var(--littleLessMildShadow);
+	padding: 30px 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.scoreList{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-height: 170px;
+	overflow-y: auto;
+}
+
+.ScoreItem{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 20px;
+	box-sizing: border-box;
+	border-radius: var(--standartBorderRadius1);
+	background: var(--search_Color2);
+	margin: 3px 0;
+}
+
+.ProjectScores_rightSide{
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	font-size: .9em;
+}
+
+.ProjectScores_rightSide span{
+	font-weight: bold;
+	padding: 20px;
+	background: var(--leftSideBar_Color);
+	border-radius: var(--standartBorderRadius2);
+}
+
+.titleAndScore{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+/* Participants List */
+.ParticipantsList{
+	width: calc(100% - 750px);
+	height: 330px;
+	margin-left: 20px;
+	padding:30px 25px;
+	box-sizing: border-box;
+}
+
+.Participants_TopSide{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.ParticipantsList .SearchBar{
+	margin-top: 15px;
+}
+
+.ParticipantsList .SearchBar input{
+	background: var(--fullInfoMenu_Color);
+}
+
+.ParticipantsList .SearchBar, .ParticipantsList .SearchBar input{
+	width: 100%;
+	
+}
+
+.ParticipantsList_List{
+	max-height: 72%;
+	overflow-y: auto;
+	margin-top: 5px;
+	border-radius: var(--standartBorderRadius1);
+}
+
+.ParticipantItem{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+	background: var(--fullInfoMenu_Color);
+	margin: 4px 0;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: var(--standartBorderRadius1);
+}
+
+.ParticipantItem img{
+	width: 30px;
+	height: 30px;
+	margin-right: 7px;
+	border-radius: 100%;
+	background: var(--blueColor);
+}
+
+.ParticipantItem:hover{
+	filter: brightness(.95);
+}
+
+@media (max-width:1420px) {
+	.ProjectActivities{
+		font-size: .9em;
+		
+	}
+
+	.ProjectScores{
+		width: 60%;
+		min-width: auto;
+	}
+
+	.ParticipantsList{
+		width: 40%;
+	}
+}
+
+
+@media (max-width:1000px){
+	.CurrentProjectAndAboutCurator, .ProjectScoresAndList{
+		flex-direction: column;
+	}
+
+	.AboutCurator{
+		flex-direction: column;
+		height: auto;
+	}
+
+	.AboutCuratorRightSide{
+		max-width: 100%;
+	}
+
+	.AboutCuratorLeftSide{
+		width: 100%;
+		margin-bottom: 20px;
+
+	}
+
+	.AboutCuratorRightSide .curatorDescription{
+		max-height: 300px;
+	}
+
+	.CurrentProject{
+		margin-bottom: 20px;
+	}
+
+	.ProjectScores{
+		min-width: auto;
+		margin-bottom: 20px;
+		flex-direction: column;
+		height: auto;
+		width: 100%;
+	}
+	
+	.ProjectScores_leftSide, .ProjectScores_rightSide{
+		box-sizing: border-box;
+		width: 100%;
+		font-size: .8em;
+	}
+
+	.ProjectScores_rightSide{
+		margin: 20px 0;
+	}
+
+	.ParticipantsList{
+		margin-left: 0;
+		width: auto;
+	}
+}
+
+@media (min-width:800px) and (max-width:999px) {
+	.CurrentProjectAndAboutCurator, .ProjectScoresAndList{
+		flex-direction: row;
+	}
+
+	.CurrentProject, .AboutCurator, .ProjectScores, .ParticipantsList{
+		width: 50%;
+	}
+
+	.CurrentProject{
+		height: 399px;
+		margin-bottom: 0;
+	}
+
+	.ProjectScores{
+		margin-right: 20px;
+		margin-bottom: 0;
+	}
+
+	.ParticipantsList{
+		height: 100%;
+	}
+	
+	.curatorDescription{
+		height: auto;
+		padding-bottom: 0;
+	}
+}
+
+@media (max-width:370px){
+	.ProjectActivities{
+		font-size: .8em;
+	}
+}
+

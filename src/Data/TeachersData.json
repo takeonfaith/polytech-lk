@@ -1,0 +1,485 @@
+[
+	{
+		"id":0,
+		"photo":"https://randomuser.me/api/portraits/men/61.jpg",
+		"name":"Никитин Артур Григорьевич",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":1,
+		"photo":"https://randomuser.me/api/portraits/women/76.jpg",
+		"name":"Колесникова Милана Анатольевна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":2,
+		"photo":"",
+		"name":"Юдина Ариана Серафимовна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":3,
+		"photo":"",
+		"name":"Егорова Ксения Руслановна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":4,
+		"photo":"",
+		"name":"Алексеева Виктория Максимовна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":5,
+		"photo":"https://uifaces.co/our-content/donated/N5PLzyan.jpg",
+		"name":"Федоров Даниил Константинович",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":6,
+		"photo":"https://images-na.ssl-images-amazon.com/images/M/MV5BNTQ3OTA2NDQtMzBkMy00ZDVjLWFlYzUtMmZhNzRmZTc3NmM1XkEyXkFqcGdeQXVyNjc1NTc4MDA@._V1_UX172_CR0,0,172,256_AL_.jpg",
+		"name":"Александрова Амина Александровна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":7,
+		"photo":"",
+		"name":"Киреева Елизавета Ильинична",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":8,
+		"photo":"",
+		"name":"Волкова Таисия Михайловна",
+		"yourTeacher":false,
+		"cathedra":"Инфокогнитивные технологии"
+	},
+	{
+		"id":9,
+		"photo":"https://randomuser.me/api/portraits/men/64.jpg",
+		"name":"Зайцев Савелий Никитич",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":10,
+		"photo":"",
+		"name":"Федотов Григорий Макарович",
+		"yourTeacher":false,
+		"cathedra":"Инфокогнитивные технологии"
+	},
+	{
+		"id":11,
+		"photo":"https://uifaces.co/our-content/donated/oedmUmVc.jpg",
+		"name":"Митрофанова Алисия Тихоновна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":12,
+		"photo":"",
+		"name":"Казаков Савелий Дмитриевич",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":13,
+		"photo":"",
+		"name":"Серебряков Антон Артёмович",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":14,
+		"photo":"https://images-na.ssl-images-amazon.com/images/M/MV5BMjUzZTJmZDItODRjYS00ZGRhLTg2NWQtOGE0YjJhNWVlMjNjXkEyXkFqcGdeQXVyMTg4NDI0NDM@._V1_UY256_CR42,0,172,256_AL_.jpg",
+		"name":"Короткова Кристина Савельевна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":15,
+		"photo":"https://randomuser.me/api/portraits/men/32.jpg",
+		"name":"Воронин Григорий Даниилович",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":16,
+		"photo":"",
+		"name":"Медведев Кирилл Артёмович",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":17,
+		"photo":"",
+		"name":"Филатова Варвара Максимовна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":18,
+		"photo":"",
+		"name":"Лаптева Ульяна Максимовна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":19,
+		"photo":"",
+		"name":"Новикова Злата Вячеславовна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":20,
+		"photo":"",
+		"name":"Поляков Михаил Никитич",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":21,
+		"photo":"",
+		"name":"Рябов Илья Ильич",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":22,
+		"photo":"",
+		"name":"Устинова Милана Глебовна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":23,
+		"photo":"",
+		"name":"Иванов Александр Фёдорович",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":24,
+		"photo":"",
+		"name":"Давыдов Мирослав Львович",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":25,
+		"photo":"https://uifaces.co/our-content/donated/oLkb60i_.jpg",
+		"name":"Третьякова Диана Арсентьевна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":26,
+		"photo":"",
+		"name":"Воробьев Владислав Георгиевич",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":27,
+		"photo":"",
+		"name":"Беляева Василиса Денисовна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":28,
+		"photo":"",
+		"name":"Горшкова Оливия Фёдоровна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":29,
+		"photo":"",
+		"name":"Волкова Каролина Кирилловна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":30,
+		"photo":"https://randomuser.me/api/portraits/women/40.jpg",
+		"name":"Старостина Камилла Егоровна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":31,
+		"photo":"",
+		"name":"Соколов Семён Петрович",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":32,
+		"photo":"",
+		"name":"Авдеева Евгения Максимовна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":33,
+		"photo":"",
+		"name":"Краснова Софья Арсентьевна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":34,
+		"photo":"",
+		"name":"Смирнова Надежда Константиновна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":35,
+		"photo":"",
+		"name":"Суворов Михаил Степанович",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":36,
+		"photo":"",
+		"name":"Малинина Алиса Андреевна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":37,
+		"photo":"",
+		"name":"Соколов Михаил Иванович",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":38,
+		"photo":"",
+		"name":"Голубева Дарья Кирилловна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":39,
+		"photo":"",
+		"name":"Климов Артемий Максимович",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":40,
+		"photo":"",
+		"name":"Азатьян Эвелина Михайловна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":41,
+		"photo":"",
+		"name":"Сидорова Полина Александровна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":42,
+		"photo":"",
+		"name":"Демидова Милана Артёмовна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":43,
+		"photo":"",
+		"name":"Никифорова София Максимовна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":44,
+		"photo":"",
+		"name":"Воронова Алина Мироновна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":45,
+		"photo":"",
+		"name":"Коновалова Агата Елисеевна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":46,
+		"photo":"",
+		"name":"Климова Мария Богдановна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":47,
+		"photo":"",
+		"name":"Серова Александра Юрьевна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":48,
+		"photo":"",
+		"name":"Герасимова Мария Матвеевна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":49,
+		"photo":"",
+		"name":"Михайлова Валерия Максимовна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":50,
+		"photo":"",
+		"name":"Новиков Гордей Иванович",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":51,
+		"photo":"https://uifaces.co/our-content/donated/Square__small_.jpg",
+		"name":"Зайцев Марк Даниилович",
+		"yourTeacher":true,
+		"cathedra":"Математика"
+	},
+	{
+		"id":52,
+		"photo":"https://randomuser.me/api/portraits/men/47.jpg",
+		"name":"Кудрявцев Алексей Егорович",
+		"yourTeacher":true,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":53,
+		"photo":"https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
+		"name":"Поликарпова Арина Львовна",
+		"yourTeacher":true,
+		"cathedra":"Математика"
+	},
+	{
+		"id":54,
+		"photo":"https://randomuser.me/api/portraits/men/10.jpg",
+		"name":"Семенов Лев Михайлович",
+		"yourTeacher":true,
+		"cathedra":"Математика"
+	},
+	{
+		"id":55,
+		"photo":"",
+		"name":"Марков Фёдор Владимирович",
+		"yourTeacher":true,
+		"cathedra":"Математика"
+	},
+	{
+		"id":56,
+		"photo":"https://images.unsplash.com/photo-1495147334217-fcb3445babd5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=7dc81c222437ff6fed90bfb04c491d6f",
+		"name":"Дроздов Михаил Артёмович",
+		"yourTeacher":true,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":57,
+		"photo":"",
+		"name":"Марков Фёдор Владимирович",
+		"yourTeacher":true,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":58,
+		"photo":"",
+		"name":"Постников Николай Дмитриевич",
+		"yourTeacher":true,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":59,
+		"photo":"",
+		"name":"Белякова Василиса Леонидовна",
+		"yourTeacher":true,
+		"cathedra":"Гуманитарные дисциплины"
+	},
+	{
+		"id":60,
+		"photo":"",
+		"name":"Скворцов Гордей Максимович",
+		"yourTeacher":true,
+		"cathedra":"Гуманитарные дисциплины"
+	},
+	{
+		"id":61,
+		"photo":"",
+		"name":"Плотников Арсений Тимофеевич",
+		"yourTeacher":true,
+		"cathedra":"Гуманитарные дисциплины"
+	},
+	{
+		"id":62,
+		"photo":"",
+		"name":"Смирнов Макар Никитич",
+		"yourTeacher":true,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":63,
+		"photo":"",
+		"name":" Капустина Маргарита Данииловна",
+		"yourTeacher":true,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":64,
+		"photo":"",
+		"name":"Лумпов Никита Михайлович",
+		"yourTeacher":true,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":65,
+		"photo":"",
+		"name":"Яковлев Егор Марсельевич",
+		"yourTeacher":true,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":66,
+		"photo":"https://images.generated.photos/O6Du4PixJp9hLv0WcZb2fOkZha8ziectdJbhh2IkqKk/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA1NDM1MTguanBn.jpg",
+		"name":"Тарасова Кира Алексеевна",
+		"yourTeacher":true,
+		"cathedra":"Информатика и информационные технологии"
+	},
+	{
+		"id":67,
+		"photo":"https://images.generated.photos/XmdR0PKDueFV9Oz3w1Fww86Zavp9mzHEXcVCwIPH2so/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA1NzUxNTUuanBn.jpg",
+		"name":"Ковалев Марк Эмирович",
+		"yourTeacher":false,
+		"cathedra":"Инфокогнитивные технологии"
+	},
+	{
+		"id":68,
+		"photo":"https://images.generated.photos/ynraaJJXP0PaRe0ZhM7H_B5z1n_iMfrlHPkq92sovHs/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA5OTUxNzguanBn.jpg",
+		"name":"Лебедева Александра Владимировна",
+		"yourTeacher":false,
+		"cathedra":"Информатика и информационные технологии"
+	}
+]

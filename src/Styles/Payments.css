@@ -1,0 +1,235 @@
+.paymentCardAndContract ::-webkit-scrollbar {
+	width: 4px;
+	background: var(--text_Color);
+ }
+
+ .paymentCardAndContract ::-webkit-scrollbar-track {
+	background: var(--content_Color);
+
+ }
+
+ .paymentCardAndContract{
+	 display: flex;
+ }
+
+.PaymentPlate{
+	width: 68%;
+	height: 400px;
+	background: var(--search_Color);
+	border-radius: var(--standartBorderRadius3);
+	box-sizing: border-box;
+	padding: 35px;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.contractInfo{
+	padding: 35px;
+	box-sizing: border-box;
+	width: 32%;
+	height: 400px;
+	margin-top: 20px;
+	border-radius: var(--standartBorderRadius3);
+	margin-left: 10px;
+	background: var(--search_Color);
+}
+
+.contractInfo h2{
+	margin-bottom: 30px;
+}
+
+.contractInfo p{
+	margin-top: 10px;
+}
+
+.boldText{
+	font-weight: bold;
+}
+
+
+.paymentLog{
+	background: var(--content_Color);
+	margin: 10px 0;
+	padding: 15px 20px;
+	display: flex;
+	justify-content: space-between;
+	border-radius: var(--standartBorderRadius1);
+	font-weight: bold;
+	box-shadow: var(--leftSideBar_shadow);
+}
+
+.paymentPlateContent{
+	position: relative;
+	display: flex;
+}
+
+.paymentLeftSide, .paymentRightSide{
+	margin-top: 50px;
+	width: 50%;
+}
+
+.paymentLeftSide{
+	position: relative;
+}
+
+.paymentLeftSide::before{
+	content: "";
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	top: -25px;
+	left: 0;
+	display: block;
+	background: rgb(128 128 128 / 12%);
+
+}
+
+.paymentValue{
+	color: var(--greenColor);
+}
+
+.paymentPlateIncome{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color:var(--blueColor);
+	font-weight: bold;
+	padding-right: 15px;
+}
+
+.paymentsArea{
+	overflow-y: scroll;
+	max-height: 190px;
+	box-sizing: border-box;
+	padding-right: 10px;
+}
+
+.paymentRightSide{
+	padding: 0 20px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+}
+
+.restMoney{
+	color:var(--redColor);
+	font-weight: bold;
+}
+
+.monthly{
+	color:var(--blueColor);
+	font-weight: bold;
+}
+
+.wideBtn.pay{
+	margin-top: 20px;
+}
+
+.debtOrOverpay{
+	font-weight: bold;
+	color:var(--greenColor);
+}
+
+.paidOut{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+	border-radius: var(--standartBorderRadius2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(28, 158, 80, 0.1);
+}
+
+.paidOut img{
+	width: 20px;
+	margin-left: 10px;
+}
+
+.paymentRightSide iframe{
+	position: relative;
+	border: none;
+	box-shadow: var(--mildShadow);
+	border-radius: 10px;
+}
+
+@media (max-width:1470px){
+	.paymentCardAndContract{
+		flex-direction: column;
+	}
+
+	.PaymentPlate{
+		width: 100%;
+	}
+
+	.contractInfo{
+		width: 100%;
+	}
+}
+
+
+@media all and (max-width:1000px){
+	.Payments{
+		font-size: var(--fontSizeIPhone6);
+	}
+
+	.Payments .ChoosePage{
+		z-index: 0;
+	}
+
+	.contractInfo{
+		box-sizing: border-box;
+		width: 100%;
+		margin: 20px 0;
+		padding: 30px 20px;
+		height: 100%;
+	}
+	.PaymentPlate{
+		width: 100%;
+		height: 100%;
+		padding: 30px 20px;
+	}
+
+	.paymentPlateContent{
+		flex-direction: column;
+	}
+	.paymentLeftSide, .paymentRightSide{
+		width: 100%;
+	}
+
+	.paymentRightSide{
+		margin-top: 20px;
+		padding: 0;
+	}
+
+	.qrScanBtn{
+		margin-top: 20px;
+	}
+
+	.paymentRightSide iframe{
+		width: 100%;
+		
+	}
+
+	.contractInfo .wideBtn{
+		margin: 10px 0;
+	}
+}
+
+@media all and (max-width:700px){
+	.paymentCardAndContract{
+		flex-direction: column;
+		
+	}
+}
+
+@media all and (max-width:1000px) and (min-width:801px){
+	.paymentCardAndContract{
+		flex-direction: row;
+	}
+
+	.contractInfo{
+		height: auto;
+	}
+}

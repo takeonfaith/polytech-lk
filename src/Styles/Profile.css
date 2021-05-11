@@ -1,0 +1,513 @@
+.contentTitle{
+	margin-bottom: 20px;
+}
+
+.photoAndInfo{
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+}
+
+.photoAndInfo img{
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	margin-right: 30px;
+}
+
+.shortInfo{
+	margin-top: 5px;
+}
+
+.Cards{
+	margin-top: 20px;
+	width: 85%;
+	max-width: 1030px;
+	display: flex;
+	justify-content: space-between
+}
+
+.CardItem ::-webkit-scrollbar {
+	width: 0px;
+	height: 0;
+ }
+
+.CardItem{
+	background: var(--leftSideBar_Color);
+	box-shadow: var(--leftSideBar_shadow);
+	width: 49%;
+	height: 100px;
+	border-radius: var(--standartBorderRadius2);
+	box-sizing: border-box;
+	padding: 30px;
+	overflow:hidden;
+	transition: 0.4s width, .4s height,  transform .4s,  opacity .4s, padding .4s, border-radius .4s;
+	cursor: pointer;
+}
+
+.CardItem:hover{
+	filter: brightness(1.1);
+}
+
+.CardItem .innerText{
+	margin-top: 10px;
+	width: 100%;
+	height: 90%;	
+	font-weight: 500;
+	font-size: 1em;
+	background: transparent;
+	border:none;
+	outline: none;
+	cursor: inherit;
+	overflow-y:auto;
+	overflow-x: hidden;
+	color: var(--text_Color);
+	resize: none;
+	line-height: 1.4em;
+}
+
+.cardCloseBtn{
+	transition:.4s;
+	cursor: pointer;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+
+.cardCloseBtn:hover{
+	background: var(--almostTransparent);
+}
+
+@keyframes fadeIn{
+	0%{
+		opacity: 1;
+		transform: scale(1.02);
+	}
+	50%{
+		opacity: 0;
+		transform: scale(0.97)
+	}
+	100%{
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.ShortCutCard{
+	display: flex;
+	justify-content: space-between;
+	width: 85%;
+	max-width: 1030px;
+	margin-top: 10px;
+}
+
+
+.ShortCutCard a{
+	width: 20%;
+	flex: auto;
+	height: 130px;
+	margin-right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: var(--standartBorderRadius2);
+	box-shadow: var(--leftSideBar_shadow);
+	transition: .2s;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.ShortCutItem{
+	text-align: center;
+	color:#fff;
+}
+
+.ShortCutItem i{
+	margin-bottom: 5px;
+	font-size: 45px;
+	color:#fff;
+}
+
+.ShortCutCard a:hover{
+	filter: brightness(1.05);
+}
+
+.scheduleAndNotif{
+	display: flex;
+	align-items: center;
+	width: 86%;
+	-webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+	max-width: 1040px;
+}
+
+.scheduleAndNotif a:nth-child(1){
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+.scheduleAndNotif a .PageDots{
+	justify-content: center;
+}
+
+.TodaysSchedule{
+	margin: 12px 0;
+	overflow-y:auto;
+	height: 180px;
+	box-sizing: border-box;
+	min-width: 400px;
+	scroll-snap-type: y mandatory ;
+	scroll-padding-top: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 5px;
+	background: var(--settings_Color);
+	border-radius: 26px;
+	transition: .2s transform;
+	-webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+}
+
+.TodaysSchedule:active{
+	transform: scale(.97);
+}
+
+.TodaysSchedule_wrapper{
+	position: relative;
+	-webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+}
+
+.TodaysSchedule_wrapper .PageDots{
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	background: var(--almostTransparentOpposite);
+	transform: translateY(-50%);
+}
+
+.Profile .ScheduleDay{
+	scroll-snap-align: start;
+	border-radius: 21px;
+	min-height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	transition: .2s;
+	-webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+}
+
+
+.Profile .ScheduleDay.hidden{
+	opacity: 0;
+	border-radius: 50px;
+}
+
+.ProfileNotifications{
+	width: 100%;
+	height: 180px;
+	max-height: 180px;
+	background: var(--settings_Color);
+	border-radius: var(--standartBorderRadius2);
+	padding: 0 5px;
+	box-sizing: border-box;
+	overflow-y:auto;
+	scroll-snap-type: y mandatory;
+	scroll-padding-top: 4px;
+	position: relative;
+	text-align: center;
+	transition: .2s transform;
+}
+
+.ProfileNotifications:active{
+	transform: scale(.98);
+}
+
+.ProfileNotifications::-webkit-scrollbar, .TodaysSchedule::-webkit-scrollbar{
+	width: 0px;
+	z-index: -1;
+}
+
+.ProfileNotifications .NotificationItem{
+	box-sizing: border-box;
+	margin: 5px 0;
+	border-radius: 15px;
+	height: calc(50% - 7px);
+	scroll-snap-align: start;
+	font-size: .9em;
+}
+
+.ProfileNotifications .NotificationItem h3{
+	text-align: left;
+}
+
+.ProfileNotifications .NotificationItem .NotifIcon{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	min-width: 40px;
+}
+
+/* .Profile a{
+	position: relative;
+	display: block;
+} */
+
+.ProfileInfo{
+	border-radius: var(--standartBorderRadius1);
+	margin-top: 15px;
+	font-weight: 500;
+}
+
+.fullInfoWrapper{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	display: block;
+	z-index: 100;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.61);
+	transition: .3s;
+}
+
+.fullInfo{
+	pointer-events: all;
+	opacity: 1;
+	position: absolute;
+	width: 90%;
+	padding: 20px;
+	box-sizing: border-box;
+	height: 80%;
+	background: var(--fullInfoMenu_Color);
+	border-radius: var(--standartBorderRadius2) var(--standartBorderRadius2) 0 0;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 20;
+	transition: .3s transform, .2s opacity, .7s height;
+	box-shadow: var(--middleShadow);
+	overflow-y: auto;
+}
+
+.moreInfoBtn{
+	color:var(--blueColor);
+	cursor: pointer;
+	margin-top: 5px;
+	user-select: none;
+}
+
+.moreInfoBtn:hover{
+	filter: brightness(1.2);
+}
+
+.titleAndCloseInfo i{
+ 	cursor: pointer;
+}
+
+.secondPageInfoContent p{
+	margin: 10px 0;
+}
+
+.scheduleAndNotif .NotificationItem:hover .notifDateAndClose i{
+	display: none;
+}
+
+
+@media (min-width:1001px) and (max-width:1250px){
+	.ShortCutCard{
+		width: 100%;
+	}
+
+	.Cards{
+		width: 100%;
+	}
+
+	.scheduleAndNotif{
+		width: calc(100% + 15px);
+	}
+
+	.ProfileNotifications{
+		font-size: .9em;
+	}
+	
+}
+
+@media (max-width:1100px){
+	.ProfileNotifications{
+		font-size: .8em;
+	}
+}
+
+@media (max-width:1000px){
+	.fullInfo{
+		width: 100%;
+	}
+
+	.ProfileInfo{
+		background: var(--search_Color);
+		padding: 8px 10px;
+		margin-top: 4px;
+		font-size: .9em;
+	}
+
+	.photoAndInfo{
+		padding: 0 5px;
+		display: block;
+	}
+
+	.photoAndInfo::after{
+		content: "";
+		display: block;
+		position: absolute;
+		width: 80%;
+		height: 1.5px;
+		bottom: -10px;
+		left: 50%;
+		transform: translateX(-50%);
+		background:var(--leftSideBar_Color);
+	}
+
+	.photoAndInfo img{
+		margin-right: 0;
+		
+		height: 70px;
+		width: 70px;
+	}
+
+	.boldText{
+		font-weight: bold;
+	}
+
+	.info{
+		margin-left: 10px;
+		font-size: .65em;
+	}
+
+	.ShortCutCard{
+		width: 100%;
+		align-items: center;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.ShortCutCard a{
+		margin: 5px 0;
+		width: 47%;
+		height: 50px;
+		max-width: 400px;
+		padding: 0;
+		flex:none;
+	}
+	.ShortCutCard a i{
+		font-size: 20px;
+		margin-right: 2px;
+		margin-bottom: 0;
+	}
+
+	.ShortCutItem{
+		display: flex;
+	}
+	
+	.scheduleAndNotif{
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.scheduleAndNotif a, .TodaysSchedule_wrapper{
+		width: 100%;
+	}
+
+	.TodaysSchedule{
+		width: 100%;
+	}
+}
+
+@media (min-width:700px) and (max-width:1000px){
+	.photoAndInfo{
+		font-size: 1.1em;
+	}
+
+	.photoAndInfo img{
+		width: 100px;
+		height: 100px;
+	}
+
+	.ShortCutCard{
+		flex-wrap: wrap;
+
+	}
+
+	.ShortCutCard a{
+		margin: 10px;
+		height: 100px;
+	}
+	.Cards{
+		width: 100%;
+		flex-wrap: wrap;
+		height: auto;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.CardItem{
+		width: 100%;
+		margin: 10px;
+	}
+}
+
+@media (max-width:1000px){
+	.ProfileNotifications{
+		display: none;
+	}
+
+	.TodaysSchedule{
+		width: 100%;
+		min-width: auto;
+	}
+
+	/* .ProfileInfo{
+		font-size: .7em;
+	}
+
+	.ProfileInfo .fullInfoWrapper{
+		font-size: .8em;
+	} */
+}
+
+@media (min-width:200px) and (max-width:699px){
+	.Cards{
+		width: 100%;
+		flex-direction: column;
+		height: auto;
+		align-items: center;
+	}
+
+	.CardItem{
+		width: 100%;
+		margin: 4px 0;
+		height: 130px;
+	}	
+}
+
+@media (max-width:450px){
+	.TodaysSchedule{
+		font-size: .9em;
+	}
+}
+
+@media (max-width:350px){
+	.ShortCutCard a{
+		font-size: .8em;
+	}
+
+	.ShortCutItem{
+		align-items: center;
+	}
+
+	.TodaysSchedule{
+		font-size: .8em;
+	}
+
+	.ProfileInfo .PageWithSlideMenu{
+		font-size: .9em;
+	}
+}

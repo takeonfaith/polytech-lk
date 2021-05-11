@@ -1,0 +1,74 @@
+.Header{
+	width: 100%;
+	min-height: 70px;
+	background: var(--header_Color);
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 30px;
+	color: var(--text_Color);
+	box-shadow: var(--leftSideBar_shadow);
+	z-index: 1;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.SettingsBtn{
+	display: flex;
+	align-items: center;
+	background: var(--leftSideBar_Color);
+	border-radius: var(--standartBorderRadius1);
+	padding: 10px;
+	cursor: pointer;
+	transition: .2s transform;
+	user-select: none;	
+	box-shadow: var(--mildShadow);
+}
+
+.SettingsBtn:hover{
+	filter: brightness(.95);
+}
+
+.SettingsBtn i{
+	font-size: 23px;
+	margin-right: 7px;
+	transition: .2s;
+}
+
+.MobileMenuBtn{
+	display: none;
+	cursor: pointer;
+}
+
+.MobileMenuBtn i{
+	font-size: 22px;
+}
+
+@media all and (max-width:1000px){
+	.Header{
+		min-height: 50px;
+		font-size: 0.7em;
+	}
+
+	.logo{
+		visibility: hidden;
+	}
+
+	.SettingsBtn{
+		padding: 6px;
+	}
+
+	.SettingsBtn div{
+		display: none;
+	}
+	
+	.SettingsBtn i{
+		font-size: 1.8em;
+		margin-right: 0;
+	}
+
+	.MobileMenuBtn{
+		display: block;
+	}
+}

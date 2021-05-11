@@ -1,0 +1,24 @@
+{
+	"magistracy":
+	{
+		"id":0,
+		"customer":"Иванов И.И.",
+		"student":"Родионов Е. Л.",
+		"number": "№008245",
+		"startDate": "August 21, 2023",
+		"sum":400000,
+		"endDate":"August 31, 2023",
+		"monthly": 100000
+	},
+	"bachelor":
+	{
+		"id":1,
+		"customer":"Иванов И.И.",
+		"student":"Родионов Е. Л.",
+		"number": "№0032471",
+		"startDate": "August 25, 2019",
+		"sum":400000,
+		"endDate": "August 31, 2023",
+		"monthly": 8000
+	}
+}

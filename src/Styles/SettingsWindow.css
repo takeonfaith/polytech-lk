@@ -1,0 +1,169 @@
+.SettingsWindow{
+	position: absolute;
+	z-index: 3;
+	background: var(--settings_Color);
+	top: 50%;
+	left: 50%;
+	transition:  transform .2s, opacity .2s, z-index .2s;
+	width: 90%;
+	height: 90%;
+	color: var(--text_Color);
+	border-radius: var(--standartBorderRadius2);
+	box-sizing: border-box;
+	padding: 40px;
+	overflow-y: auto;
+}
+
+.titleAndClose{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.titleAndClose img{
+	filter: invert(var(--invert));
+	width: 30px;
+	cursor: pointer;
+	transition: .1s;
+}
+
+.titleAndClose img:hover{
+	border-radius: 5px;
+	background: rgb(196, 196, 196);
+}
+
+.settingsUnit{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.settingsUnit h2{
+	color:grey;
+}
+
+.settingsUnit_Title{
+	margin-bottom: 10px;
+}
+
+.ChoosePage{
+	background: var(--search_Color);
+	height: 50px;
+	margin-top: 20px;
+	box-sizing: border-box;
+	padding: 2px;
+	color: var(--text_Color);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: var(--standartBorderRadius2);
+	position: relative;
+	/* box-shadow: var(--strongShadow); */
+	/* transition: .2s background; */
+}
+
+.ChoosePage .innerCircle{
+	position: absolute;
+	width: 33%;
+	height: 88%;
+	left: 3px;
+	background: var(--search_Color);
+	filter: brightness(.8);
+	transition: .2s;
+}
+
+.ChoosePage .page{
+	width: 33%;
+	height: 91%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	cursor: pointer;
+	user-select: none;
+	color:grey;
+	font-weight: 600;
+	z-index: 2;
+}
+
+.ChoosePage .page:hover{
+	background: rgba(128, 128, 128, 0.055);
+	
+}
+
+.SettingsWindow .NavList{
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.NavItem.settings{
+	margin:0 0;
+	padding: 20px 0;
+	justify-content: space-between;
+	border-radius: var(--standartBorderRadius1);
+}
+
+.NavItem.settings:hover{
+	background: var(--content_Color);
+}
+
+.NavItem.settings .far.fa-check-circle{
+	color:var(--purpleColor);
+	opacity: .5;
+}
+
+
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 62px;
+	height: 62px;
+	border-radius: var(--standartBorderRadius1);
+	outline: none;
+	background: transparent;
+	margin:10px 10px 10px 0;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: 7px solid rgba(255, 255, 255, 0.226);
+	border-radius: var(--standartBorderRadius1);
+}
+
+.Account .InputField{
+	margin: 10px 0;
+}
+
+@media all and (max-width:1000px){
+	.SettingsWindow{
+		width: 100%;
+		height: 100%;
+		padding:20px 14px;
+		font-size: .8em;
+		border-radius: 0;
+	}
+
+	.ChoosePage{
+		height: 40px;
+		padding: 0 2px;
+    	border-radius: 10px;
+	}
+
+	.ChoosePage .page{
+		height: 88%;
+		font-size: .9em;
+		border-radius: 7px;
+	}
+}
+
+@media (max-width:650px){
+	.Account .InputField,.Account .InputField input{
+		width: 100%;
+	}
+}
+
+@media all and (max-width:350px){
+	.ChoosePage .page{
+		font-size: .8em;
+	}
+}

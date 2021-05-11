@@ -1,0 +1,19 @@
+{
+	"id":0,
+	"name":"Родионов Егор Леонович",
+	"photo": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?crop=faces&fit=crop&h=200&w=200&auto=compress&cs=tinysrgb",
+	"birthday":"12 Апреля 2001",
+	"status": "Учится",
+	"code": "ИПИТ-19-4111",
+	"course": 2,
+	"sex": "Мужской",
+	"faculty": "Институт принтмедиа",
+	"group": "191-722",
+	"specialty": "09.03.02 Информационные системы и технологии",
+	"specialization": "Информационные и автоматизированные системы обработки информации и управления",
+	"degreeLength":4,
+	"enterYear":"2019/2020",
+	"finance": "Бюджентная",
+	"degreeLevel":"Бакалавр",
+	"educationForm": "Очная"
+}

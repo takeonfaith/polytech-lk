@@ -1,0 +1,114 @@
+[
+	{
+		"id":0,
+		"title":"Многофункциональный центр",
+		"innerLinks":[
+			{
+				"text":"Справка о прослушанных дисциплинах за период обучения (справка об обучении)",
+				"link":"/applications/create-application"
+			},
+			{
+				"text":"Справка о прохождении обучения в университете (о статусе обучающегося) по месту требования",
+				"link":"/applications/create-application"
+			},
+			{
+				"text":"Справка в социальные учреждения (Пенсионный фонд, УСЗН и пр.)",
+				"link":"/applications/create-application"
+			},
+			{
+				"text":"Справка-вызов",
+				"link":"/applications/create-application"
+			},
+			{
+				"text":"Заявление на пересдачу для получения диплома с отличием",
+				"link":"/applications/create-application"
+			},
+			{
+				"text":"Запрос на изменение персональных данных",
+				"link":"/applications/create-application"
+			},
+			{
+				"text":"Запрос на восстановление магнитного пропуска",
+				"link":"/applications/create-application"
+			},
+			{
+				"text":"Уточнение паспортных данных",
+				"link":"/applications/create-application"
+			}
+		]
+	},
+	{
+		"id":1,
+		"title":"Практика",
+		"innerLinks":[
+			{
+				"text":"Записаться на практику",
+				"link":"/applications/create-application"
+			},
+			{
+				"text":"Заказать сопроводительное письмо на практику",
+				"link":"/applications/create-application"
+			}
+		]
+	},
+	{
+		"id":2,
+		"title":"Отдел платных образовательных услуг",
+		"innerLinks":[
+			{
+				"text":"Оформить дополнительное соглашение к договору об обучении",
+				"link":"/applications/create-application"
+			},
+			{
+				"text":"Отправить квитанцию об оплате обучения или пени",
+				"link":"/applications/create-application"
+			}
+		]
+	},
+	{
+		"id":3,
+		"title":"Профсоюзная организация",
+		"innerLinks":[
+			{
+				"text":"Вступить в Профсоюз",
+				"link":"/applications/create-application"
+			},
+			{
+				"text":"Оформить материальную поддержку остронуждающимся студентам (Дотацию)",
+				"link":"/applications/create-application"
+			},
+			{
+				"text":"Заявка на материальную помощь",
+				"link":"/applications/create-application"
+			},
+			{
+				"text":"Оформить социальную стипендию",
+				"link":"/applications/create-application"
+			}
+		]
+	},
+	{
+		"id":4,
+		"title":"Мобилизационный отдел",
+		"innerLinks":[
+			{
+				"text":"Заполнить личную карточку обучающегося по воинскому учету для получения отсрочки от призыва на военную службу",
+				"link":"/applications/create-application"
+			}
+		]
+	},
+	{
+		"id":5,
+		"title":"Приемная комиссия и прочее",
+		"innerLinks":[
+			{
+				"text":"Изменение условий обучения (направление подготовки (специальность), форма), в том числе перевод с платного обучения на бесплатное",
+				"link":"/applications/create-application"
+			},
+			{
+				"text":"Произвольный запрос",
+				"link":"/applications/create-application"
+			}
+		]
+	}
+]

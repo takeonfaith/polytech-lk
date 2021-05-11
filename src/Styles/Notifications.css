@@ -1,0 +1,161 @@
+.Notifications .SearchBar, .Notifications .SearchBar input{
+	margin-top: 0;
+	width: 230px;
+	height: 100%;
+}
+
+
+.NotificationItem{
+	min-height: 80px;
+	margin: 5px 0;
+	border-radius: var(--standartBorderRadius1);
+	background: var(--leftSideBar_Color);
+	padding: 20px;
+	box-shadow: var(--mildShadow);
+	cursor: pointer;
+	transition: .1s filter, .2s transform;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	-webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+}
+
+.hiddenNotifText{
+	width: 100%;
+	padding: 10px 0;
+	box-sizing: border-box;
+	margin-top: 5px;
+	animation: fadeInTop .2s forwards;
+}
+
+.notificationTitleAndDate{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	user-select: none;
+}
+
+@media (min-width:1001px){
+	.NotificationItem:hover{
+		filter:brightness(.95);
+	}
+}
+
+.NotificationItem:active{
+	transform: scale(.98);
+}
+
+.NotifIcon{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	background: var(--settings_Color);
+}
+
+.missedMessages{
+	display: flex;
+	align-items: center;
+	padding:5px 7px;
+	margin: 15px 0;
+	border-radius: 100px;
+}
+
+.missedMessages:hover{
+	background: var(--almostTransparentOpposite);
+}
+
+.missedMessages img{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.clearNotifBtn{
+	border:none;
+	margin-left: 5px;
+	border-radius: var(--standartBorderRadius1);
+	padding: 0 10px;
+	background: var(--search_Color);
+	color:var(--textColor);
+	cursor: pointer;
+	outline: none;
+}
+
+.clearNotifBtn:hover{
+	filter: brightness(1.1);
+}
+
+.notifDateAndClose i{
+	display: none;
+	background: var(--settings_Color);
+	padding: 5px;
+	width: 20px;
+	height: 20px;
+	justify-content: center;
+	align-items: center;
+	border-radius: var(--standartBorderRadius1);
+	margin-left: 10px;
+}
+
+.NotificationItem:hover .notifDateAndClose i{
+	display: flex;
+}
+
+.notifDateAndClose i:hover{
+	filter:brightness(1.2)
+}
+
+.Notifications .CustomSelect{
+	margin-left: 5px;
+}
+
+.Notifications .OptionList, .Notifications .OptionList select{
+	height: 36px;
+}
+
+@media (max-width:1000px){
+	.Notifications .SearchBar, .Notifications .SearchBar input{
+		width: 100%;
+	}
+	.NotificationItem{
+		padding: 10px;
+		font-size: .7em;
+	}
+	.NotifIcon{
+		min-width: 40px;
+		min-height: 30px;
+	}
+
+	.notifDateAndClose p{
+		white-space: nowrap;
+		font-size: .8em;
+		margin-left: 5px;
+	}
+
+	.sortAndClose{
+		margin-top: 5px;
+	}
+
+	.searchAndSortAndClose{
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.searchAndSortAndClose .CustomSelect{
+		width: 100%;
+		max-width: 100%;
+		margin: 0;
+	}
+
+	.searchAndSortAndClose button{
+		width: 50%;
+	}
+}

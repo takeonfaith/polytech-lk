@@ -1,0 +1,254 @@
+[
+	{
+		"id": 0,
+		"name": "Зайцев Марк Даниилович",
+		"photo": "https://uifaces.co/our-content/donated/Square__small_.jpg",
+		"chatLink": "/messages/abcd",
+		"seen": false,
+		"chatData": [
+			{
+				"id": 0,
+				"sender": 0,
+				"message": "Здравствуйте, Марк Даниилович. У меня вопрос есть по лабе",
+				"image":"",
+				"time": "January 14, 2021 12:04:54"
+			},
+			{
+				"id": 1,
+				"sender": 1,
+				"message": "Здравствуйте, что случилось?",
+				"image":"",
+				"time": "January 14, 2021 14:08:54"
+			},
+			{
+				"id": 2,
+				"sender": 0,
+				"message": "Да вот, не понимаю я, что такое функция принадлежности",
+				"image":"",
+				"time": "January 14, 2021 14:09:54"
+			},
+			{
+				"id": 3,
+				"sender": 1,
+				"message": "...",
+				"image":"",
+				"time": "January 14, 2021 14:09:54"
+			},
+			{
+				"id": 4,
+				"sender": 1,
+				"message": "Егор! Я все понимаю, учебный материал каждому дается по-разному. Но это знать должны все. К следующей паре узнайте ответ на этот вопрос. Я спрошу",
+				"image":"",
+				"time": "January 14, 2021 14:10:54"
+			}
+		]
+	},
+	{
+		"id": 1,
+		"name": "Дроздов Михаил Артёмович",
+		"photo": "https://images.unsplash.com/photo-1495147334217-fcb3445babd5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=7dc81c222437ff6fed90bfb04c491d6f",
+		"chatLink": "/messages/bcde",
+		"seen": false,
+		"chatData": [
+			{
+				"id": 0,
+				"sender": 0,
+				"message": "Здравствуйте, Михаил Артёмович. А по бд для зачета нужно сколько баллов набрать",
+				"image":"",
+				"time": "January 16, 2021 10:23:54"
+			},
+			{
+				"id": 1,
+				"sender": 1,
+				"message": "60",
+				"image":"",
+				"time": "January 16, 2021 11:10:54"
+			},
+			{
+				"id": 2,
+				"sender": 0,
+				"message": "То есть я могу не все домашки сдать?",
+				"image":"",
+				"time": "January 16, 2021 11:12:54"
+			},
+			{
+				"id": 3,
+				"sender": 1,
+				"message": "Если хочешь рискнуть, попробуй)",
+				"image":"",
+				"time": "January 16, 2021 11:13:54"
+			},
+			{
+				"id": 4,
+				"sender": 0,
+				"message": "Понял. Не хочу",
+				"image":"",
+				"time": "January 16, 2021 12:13:54"
+			},
+			{
+				"id": 5,
+				"sender": 1,
+				"message": "Вот и правильно)",
+				"image":"",
+				"time": "January 16, 2021 12:34:54"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Кудрявцев Алексей Егорович",
+		"photo": "https://randomuser.me/api/portraits/men/47.jpg",
+		"chatLink": "/messages/cdef",
+		"seen": true,
+		"chatData": [
+			{
+				"id": 0,
+				"sender": 1,
+				"message": "Здравствуйте, вам необходимо выполнить еще две лабораторных до 30 января",
+				"image":"",
+				"time": "January 16, 2021 09:00:54"
+			},
+			{
+				"id": 1,
+				"sender": 0,
+				"message": "Здравствуйте, Алексей Егорович. Хорошо, будет сделано! Только хотел уточнить, нужно выполнять каждое задание или можно некоторые пропускать?",
+				"image":"",
+				"time": "January 16, 2021 09:55:54"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Семенов Лев Михайлович",
+		"photo": "https://randomuser.me/api/portraits/men/10.jpg",
+		"chatLink": "/messages/defg",
+		"seen": true,
+		"chatData": [
+			{
+				"id": 0,
+				"sender": 1,
+				"message": "Завтра пары не будет, передайте ребятам",
+				"image":"",
+				"time": "January 16, 2021 09:00:54"
+			},
+			{
+				"id": 1,
+				"sender": 0,
+				"message": "Понял-принял",
+				"image":"",
+				"time": "January 16, 2021 09:32:54"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Поликарпова Арина Львовна",
+		"photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
+		"chatLink": "/messages/efgh",
+		"seen": true,
+		"chatData": [
+			{
+				"id": 0,
+				"sender": 0,
+				"message": "Приветствую! У нас будет сегодня лекция?",
+				"image":"",
+				"time": "January 15, 2021 13:04:54"
+			},
+			{
+				"id": 1,
+				"sender": 1,
+				"message": "Да, через 7 минут я запущу лекцию в зум.",
+				"image":"",
+				"time": "January 15, 2021 14:23:12"
+			},
+			{
+				"id": 2,
+				"sender": 1,
+				"message": "Передайте всем, что лекция будет",
+				"image":"",
+				"time": "January 15, 2021 14:24:03"
+			},
+			{
+				"id": 3,
+				"sender": 0,
+				"message": "Хорошо",
+				"image":"",
+				"time": "January 15, 2021 14:25:15"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"name": "Тарасова Кира Алексеевна",
+		"photo": "https://images.generated.photos/O6Du4PixJp9hLv0WcZb2fOkZha8ziectdJbhh2IkqKk/rs:fit:256:256/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA1NDM1MTguanBn.jpg",
+		"chatLink": "/messages/lox",
+		"seen":true,
+		"chatData": [
+			{
+				"id": 0,
+				"sender": 0,
+				"message": "Добрый день, Кира Алексеевна.",
+				"image":"",
+				"time": "Mon Jan 18 2021 05:30:12 GMT+0300 (Москва, стандартное время)"
+			},
+			{
+				"id": 1,
+				"sender": 1,
+				"message": "Здравствуйте. Как у вас с макетом?",
+				"image":"",
+				"time": "Mon Jan 18 2021 05:25:20 GMT+0300 (Москва, стандартное время)"
+			},
+			{
+				"id": 2,
+				"sender": 0,
+				"message": "Как раз вот с ним есть небольшие проблемки",
+				"image":"",
+				"time": "Mon Jan 18 2021 05:27:44 GMT+0300 (Москва, стандартное время)"
+			},
+			{
+				"id": 3,
+				"sender": 0,
+				"message": "Я как всегда ничего не сделал, отложив все на последний момент, и теперь 3 ночи не спал. Так вот, у меня вопрос есть: нужно ли в макет добавлять переключение тем?",
+				"image":"",
+				"time": "Mon Jan 18 2021 05:29:12 GMT+0300 (Москва, стандартное время)"
+			},
+			{
+				"id": 4,
+				"sender": 1,
+				"message": "Конечно. Это необходимо",
+				"image":"",
+				"time": "Mon Jan 18 2021 05:30:55 GMT+0300 (Москва, стандартное время)"
+			},
+			{
+				"id": 5,
+				"sender": 0,
+				"message": "Ладно, понял, спасибо",
+				"image":"",
+				"time": "Mon Jan 18 2021 06:30:55 GMT+0300 (Москва, стандартное время)"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"name": "Чижов Даниил Тимурович",
+		"photo": "https://randomuser.me/api/portraits/men/42.jpg",
+		"chatLink": "/messages/specialnayassilka",
+		"seen": true,
+		"chatData": [
+			{
+				"id": 0,
+				"sender": 1,
+				"message": "Московский политех - лучший вуз галактики!",
+				"image":"https://phototass2.cdnvideo.ru/width/1200_4ce85301/tass/m2/uploads/i/20160226/4194703.jpg",
+				"time": "January 13, 2021 04:15:41"
+			},
+			{
+				"id": 1,
+				"sender": 0,
+				"message": "",
+				"image":"https://memepedia.ru/wp-content/uploads/2020/12/bagz-banni-udivlennyj-mem.jpg",
+				"time": "January 13, 2021 04:17:41"
+			}
+		]
+	}
+]

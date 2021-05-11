@@ -1,0 +1,423 @@
+
+.Schedule ::-webkit-scrollbar {
+	width: 0px;
+	height: 7px;
+ }
+
+.Schedule{
+	overflow: hidden;
+}
+
+
+.scheduleCardsWrapper{
+	display: flex;
+	overflow-x: auto;
+	margin-top: 20px;
+	max-width: 1490px;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+}
+
+.ScheduleCardAndTitle.NotChosen{
+	opacity: 0.6;
+	transform: scale(0.9);
+}
+
+.ScheduleCardAndTitle.ReallyFar .ScheduleCard{
+	border-radius: 50px;
+	transform: scale(0.8);
+}
+
+.ScheduleCardAndTitle.ReallyFar{
+	opacity: 0;
+	transform: scale(0.8);
+	
+}
+
+.ScheduleCardAndTitle{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	transition: .2s transform, .2s opacity;
+}
+
+.ScheduleCard{
+	background: var(--search_Color);
+	margin: 10px;
+	min-width: 400px;
+	height: 400px;
+	padding: 8px;
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+	border-radius: 30px;
+	box-shadow: var(--leftSideBar_shadow);
+	scroll-snap-type: y mandatory;
+	scroll-padding-top: 15px;
+}
+
+.ScheduleCard img{
+	width: 70px;
+	margin-top: 20px;
+}
+
+.dayAndAmount{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	font-weight: 600;
+	font-size: 1.1em;
+}
+
+.ScheduleDay{
+	background: var(--leftSideBar_Color);
+	margin: 10px;
+	padding: 10px 20px;
+	border-radius: var(--standartBorderRadius2);
+	box-shadow: var(--mildShadow);
+}
+
+.ScheduleDay *{
+	margin: 15px 0;
+}
+
+.timeAndPlace{
+	display: flex;
+	align-items: center;
+	height: 19px;
+}
+
+.timeAndPlace .time{
+	color: var(--blueColor);
+	white-space:nowrap;
+}
+
+.timeAndPlace .place{
+	margin-left: 11px;
+	color:rgba(226, 121, 146, 1);
+	position: relative;
+	white-space:pre;
+}
+
+.timeAndPlace .place::before{
+	content: "";
+	width: 4px;
+	height: 4px;
+	position: absolute;
+	display: block;
+	left: -7px;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 10px;
+	background: #b096e3;
+	float: left;
+}
+
+.currentOrNext{
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	background: var(--almostTransparent);
+	margin-left: 10px;
+	height: 19px;
+	font-size: .6em;
+	border-radius: var(--standartBorderRadius1);
+}
+
+.topSection{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.TodayScheduleBtn{
+	background: var(--purpleColor);
+	border-radius: var(--standartBorderRadius1);
+	padding: 10px;
+	width: auto;
+	cursor: pointer;
+	transition: .3s;
+	font-weight: 600;
+	filter: brightness(1.2);
+	user-select: none;
+}
+
+.TodayScheduleBtn:hover{
+	background:linear-gradient(45deg,rgb(119 91 184), rgb(139 119 186));
+	box-shadow: -2px 2px 10px rgb(119 91 184);
+	color:#fff;
+}
+
+.groupChoice{
+	/* height: 100%; */
+	color:grey;
+}
+
+.groupChoice input{
+	border: none;
+	background: var(--search_Color);
+	filter: brightness(.95);
+	height: 100%;
+	outline: none;
+	padding: 10px;
+	width: 70px;
+	text-align: center;
+	border-radius: var(--standartBorderRadius1);
+	color: var(--text_Color);
+	margin-left: 0px;
+	font-weight: bold;
+}
+
+.groupChoice input::-webkit-calendar-picker-indicator {
+	display: none;
+ }
+
+.sliderWrapper{
+	display: none;
+}
+
+.scheduleBtn{
+	width: 200px;
+	max-width: 200px;
+}
+
+.sessionBtn{
+	width: 200px;
+}
+
+
+.ScheduleSessionCard{
+	margin-bottom: 30px;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+}
+
+.ScheduleSessionCard .ScheduleCard{
+	width: 400px;
+}
+
+.backBtnAndPrevBtn{
+	display:flex;
+	width:50%;
+	justify-content: center;
+	align-items:center;
+	margin-bottom:20px;
+}
+
+.Schedule_Session .backBtn{
+	border-radius: 50%;
+	min-width: 40px;
+	height: 40px;
+	margin-right: 20px;
+	background: var(--settings_Color);
+	border:0;
+	color:var(--textColor);
+	cursor: pointer;
+	outline: none;
+	transition: .1s;
+}
+
+.Schedule_Session .backBtn:hover{
+	filter: brightness(1.2);
+}
+
+.Schedule_Session .prevBtn{
+	flex-direction: row-reverse;
+}
+
+.Schedule_Session .prevBtn i{
+	margin-left: 10px;
+	transition: .1s;
+}
+
+.Schedule_Session .prevBtn.openPrev i{
+	transform: rotate(180deg);
+}
+
+.ScheduleSessionCard .place a:hover{
+	text-decoration: underline;
+}
+
+
+@keyframes popUp{
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(.97);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+
+@media all and (max-width:1000px){
+	.topSection{
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.topSection h1{
+		font-size: 1.5em;
+		margin-bottom: 20px;
+	}
+
+	.scheduleCardsWrapper{
+		overflow: hidden;
+	}
+
+	.ScheduleCard{
+		font-size: .9em;
+	}
+
+	.sliderWrapper{
+		margin: 20px auto 5px auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.inputSlider{
+		-webkit-appearance: none;
+		appearance: none;
+		width: 90%;
+		
+		height: 4px;
+		background: #e0e0e0;
+		outline: none;
+		border-radius: 10px;
+		margin-bottom: 13px;
+		display: block;
+	}
+	 
+	.inputSlider::-webkit-slider-thumb {
+		-webkit-appearance: none; 
+		appearance: none;
+		width: 50px;
+		height: 8px;
+		border-radius:3px;
+		background: #829bf0; 
+		cursor: pointer; 
+		box-shadow: 0 0 20px var(--purpleColor);
+	}
+	.weekDays{
+		margin-bottom: 10px;
+		width: 100%;
+		justify-content: space-around;
+		display: flex;
+		align-items: center;
+	 }
+	 
+	.day{
+		transition:.2s;
+		font-size:15px;
+		color:var(--text_Color);
+		position: relative;
+		opacity: 0.8;
+		cursor: pointer;
+	}
+
+	.ScheduleSessionCard .ScheduleCard{
+		width: 95%;
+		min-width: 250px;
+		max-width: 300px;
+	}
+	
+	.backBtnAndPrevBtn{
+		width: 100%;
+	}
+
+	.Schedule .showMoreBtn{
+		transition: .2s;
+		margin-top: 3px;
+		background:var(--leftSideBar_Color);
+		/* border: 5px solid var(--settings_Color); */
+		box-sizing: border-box;
+		box-shadow: var(--middleShadow);
+		border-radius:var(--standartBorderRadius1);
+		padding:10px;
+		width: 70%;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+
+	.Schedule .showMoreBtn i{
+		transition: .1s;
+	}
+}
+
+@media (max-width:700px){
+	.ScheduleSessionCard .ScheduleCard{
+		max-width: 400px;
+	}
+	.ScheduleDay{
+		margin: 8px;
+	}
+
+	@keyframes heightAnimation {
+		0%{
+			height: 0;
+		}
+		100%{
+			height: 150px;
+		}
+	}
+
+	@keyframes reverseheightAnimation {
+		0%{
+			opacity: 1;
+			height: 150px;
+		}
+		100%{
+			opacity: 0;
+			height: 0;
+			visibility: hidden;
+		}
+	}
+
+	@keyframes dissappear {
+		0%{
+			opacity: 1;
+			visibility:visible;
+		}
+		100%{
+			opacity: 0;
+			visibility: hidden;
+		}
+	}
+
+	.weekDays{
+		justify-content: space-evenly;
+	}
+}
+
+@media (max-width:500px){
+	.timeAndPlace{
+		font-size: .9em;
+	}
+}
+
+@media (max-width:400px){
+	.timeAndPlace{
+		font-size: .81em;
+	}
+}
+
+@media all and (max-width:350px){
+	.ScheduleCard{
+		font-size: var(--fontSizeIPhone5);
+	}
+
+	.ScheduleDay{
+		margin: 5px;
+	}
+
+}
